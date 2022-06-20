@@ -177,7 +177,6 @@ def sub_relative(sub1, sub2):
     # plt.show()
 
     t = {}
-
     model = LinearRegression()
     model.fit(x.values.reshape(-1,1), y.values.reshape(-1,1))
     print('***')

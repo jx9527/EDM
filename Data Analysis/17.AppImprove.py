@@ -129,8 +129,7 @@ chengji.drop_duplicates(subset=['exam_numname', 'mes_sub_name', 'mes_StudentID']
 #     plt.scatter(x[:, 0], x[:, 1])
 # plt.show()
 
-# json1 = json.dumps(obj,ensure_ascii=False,indent=2)
-# print(json1)
+# json1 = json.dumps(obj,ensure_ascii=False,indent=2) print(json1)
 # fl=open('./mean_std.json', 'w')
 # fl.write(json1)
 # fl.close()
@@ -164,7 +163,6 @@ def sub_relative(sub1, sub2):
 
     # res = pd.concat([x.reset_index().drop(['index'], axis=1), y.reset_index().drop(['index'], axis=1)], axis=1)
     # obj[sub1 + '-' + sub2] = res.values.tolist()
-
     # plt.scatter(x, y)
     # plt.xlabel(sub_map[sub1])
     # plt.ylabel(sub_map[sub2]) 

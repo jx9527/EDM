@@ -18,3 +18,4 @@ to do...
 > 参考资料
 >
 1. https://tianchi.aliyun.com/competition/entrance/231704/introduction 
+2. 基于大数据的学生行为画像研究与分析_常岚
